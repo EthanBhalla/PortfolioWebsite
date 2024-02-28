@@ -1,0 +1,20 @@
+.tile{
+    background-color: #000000;
+    color: #cdcaca;
+    font-family: 'Helvetica Neue', sans-serif;
+    border-color: #ae4cb9;
+}
+
+.background{
+    background: #000000; /* Set background to black */
+    padding: 4rem 2rem;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.small-image {
+    width: 100%;  /* adjust as needed */
+    height: auto; /* adjust as needed */
+}

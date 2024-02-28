@@ -1,0 +1,10 @@
+.custom-modal {
+    background-color: #212529;
+    color: #ae4cb9;
+}
+.project-image {
+    width: 70%; /* Adjust this value to change the image size */
+    height: auto; /* Keep the aspect ratio */
+    display: block; /* Necessary for applying margin auto */
+    margin: auto; /* Centers the image */
+}

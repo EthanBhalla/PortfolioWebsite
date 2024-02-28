@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    background-color: #000000;
+}
+
+body{
+    background-color: #000000;
+    color: #cdcaca;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.tag{
+    padding: 0 20px;
+    height: 30px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: pink;
+    color: white;
+}

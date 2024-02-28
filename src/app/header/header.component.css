@@ -1,0 +1,25 @@
+.jumbotron {
+    background-color: #000000;
+    color: #cdcaca;
+    padding: 4rem 2rem; /* Increase padding to make the jumbotron bigger */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.Heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.standout {
+    color: #ae4cb9; /* Tomato color */
+    font-size: 4em; /* 3 times the size of the normal text */
+    text-shadow: 2px 2px 4px #000000; /* Black shadow */
+}
+
+.jumbotron-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/aceb.jpg'); /* Add a semi-transparent black layer */
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,14 @@
+.nav-link {
+    color: #ae4cb9; /* Default text color */
+    transition: color 0.3s ease; /* Add transition effect to color */
+    border-bottom: 0.5vw solid transparent; /* Add a transparent border */
+}
+
+.nav-link:hover {
+    color: #9b46a5 !important; /* Change text color on hover */
+}
+
+.active-link {
+    border-bottom: 0.5vw solid #9b46a5; /* Change the border color to make it visible */
+    transition: border-bottom 0.3s ease; /* Add transition effect to border-bottom */
+}

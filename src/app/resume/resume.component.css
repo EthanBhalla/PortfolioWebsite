@@ -1,0 +1,24 @@
+.button {
+    background-color: #ae4cb9;
+    border-color: black;
+}
+
+accordion-group::ng-deep .btn-link {
+
+    color: white !important;
+}
+
+accordion-group::ng-deep .card-header {
+    background-color: #ae4cb9;
+}
+
+accordion-group::ng-deep .card {
+    background-color: #212529;
+    color: #ae4cb9;
+
+}
+
+.small-white-header {
+    font-size: 1.0em; /* Adjust size as needed */
+    color: white;
+}

@@ -1,0 +1,32 @@
+<div class="black-background">
+    <div class="container background">
+        <div class="row">
+            <div class="col-lg shadow border m-1 tile">
+                <div class="text-center">
+                    <h2>Who Am I?</h2>
+                    <img src="../../assets/PortfolioHeadshot.jpg" alt="Profile Picture" width="256" height="256" class="rounded-circle">
+                    <p> As a second-year Software Engineering student at Western University, my academic journey reflects a dedicated pursuit of technology and excellence. I completed the International Baccalaureate program, which helped equip me with strong analytical and problem-solving skills, a huge strong-point in my current day studies. Beyond the realm of academia, my diverse interests extend to the world of music and sports equally.
+
+                        <br><br>Despite enjoying a wide range of musical styles, my favourite artist is The Weeknd. I like most genres of music, mostly R&B, Indie, and Rap which all resonate with me on a deeper level. I've been to 6 concerts so far, but im hoping to go more soon.<br><br> I also have a huge connection to soccer, a passion cultivated since the age of 3. It played a pivotal role in shaping my identity.
+                        
+                        The soccer field is a space where I've honed skills, embraced discipline, and formed enduring friendships. My involvement in soccer has not only shaped my character but also instilled valuable leadership qualities which seamlessly integrate into other aspects of my life, enhancing my ability to work cohesively within a team, whether it be on the soccer pitch or on projects. In essence, the combination of my academic pursuits, musical interests, and lifelong commitment to soccer forms a dynamic mosaic that defines who I am.
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg shadow border m-1 tile">
+                <div class="text-center">
+                    <h2>Featured Project</h2>
+                    <h4>{{featuredProject.name}}</h4>
+                </div>
+
+                <carousel>
+                    <div *ngFor="let picture of featuredProject.pictures">
+                        <slide><img src={{picture}} class="project-image small-image"  alt="slide"></slide>
+                    </div>
+                </carousel>
+
+                <p class="mt-2">{{featuredProject.summary}}</p>
+                <p>Visit Portfolio Section to Learn More</p>
+                    
+            </div>
